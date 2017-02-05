@@ -9,6 +9,7 @@ global f_greenkey;
 plainimage = imread('tree.png'); %source image
 
 figure('name','source');
+
 subplot(1,4,1);
 imshow(plainimage);
 oneinsource=nnz(plainimage==1); %total number of 1 in source image
